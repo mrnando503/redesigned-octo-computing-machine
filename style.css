@@ -1,0 +1,37 @@
+html{
+    background-color: grey;
+}
+
+.title{
+    color: rgb(36, 29, 162);
+    display: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+    .cells {
+        display: flex;
+    }
+
+    .cell {
+        font-size: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        border: 1px solid rgb(20, 109, 20);
+        
+    }
+     .restart {
+       margin-top: 15px;
+       background-color: aqua;
+     }
+
+     .restart:hover {
+        background-color: brown;
+     }
